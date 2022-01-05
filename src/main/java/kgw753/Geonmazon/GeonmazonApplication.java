@@ -1,0 +1,13 @@
+package kgw753.Geonmazon;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GeonmazonApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GeonmazonApplication.class, args);
+	}
+
+}
