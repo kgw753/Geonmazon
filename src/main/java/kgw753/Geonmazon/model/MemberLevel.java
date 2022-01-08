@@ -1,5 +1,5 @@
 package kgw753.Geonmazon.model;
 
-public enum UserLevel {
+public enum MemberLevel {
     ADMIN, CUSTOMER
 }

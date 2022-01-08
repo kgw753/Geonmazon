@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Entity
 @Getter @Setter
-public class User {
+public class Member {
 
     @Id @GeneratedValue
     @Column(name = "user_id")
@@ -18,6 +18,6 @@ public class User {
     @Embedded
     private Address address;
 
-    private UserLevel userLevel; // [ADMIN, CUSTOMER]
+    private MemberLevel memberLevel; // [ADMIN, CUSTOMER]
 
 }
