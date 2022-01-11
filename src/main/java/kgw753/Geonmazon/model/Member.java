@@ -10,11 +10,12 @@ import javax.persistence.*;
 public class Member {
 
     @Id @GeneratedValue
-    @Column(name = "user_id")
+    @Column(name = "member_id")
     private Long id;
 
     private String name;
     private String password;
+
     @Embedded
     private Address address;
 
