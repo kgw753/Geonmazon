@@ -57,7 +57,7 @@ public class HomeController {
 
         memberService.join(member);
 
-        return "redirect:/";
+        return "redirect:/loginForm";
     }
 
 }

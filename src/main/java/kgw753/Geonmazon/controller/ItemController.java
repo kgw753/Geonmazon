@@ -11,7 +11,7 @@ public class ItemController {
         return "/items/itemList";
     }
 
-    @GetMapping("/cartList")
+    @GetMapping("/cart")
     public String cartList(){
         return "/items/cartList";
     }
